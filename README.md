@@ -8,5 +8,5 @@ Para efetuar deploy no vercel:
 Com permissão de administrador, execute via terminal o seguinte comando: npm i -g vercel.
 Acesse sua conta em https://vercel.com/import e importe o seu repositório do github.
 
-
+Trabalho individual
 Link para acesso: https://react-trabalhofinal.vercel.app/
