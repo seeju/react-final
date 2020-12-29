@@ -30,7 +30,7 @@ const MoviesReducer = (state = initialState, action) => {
             };
       
         case moviesActions.clearPlaylist:
-            playlist = state.playlist.filter((_, i) => i !== action.id);
+            playlist = [];
             return {
               ...state,
               playlist,

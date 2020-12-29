@@ -8,8 +8,7 @@ export const Playlist = () => {
   const dispatch = useDispatch();
   const moviesStore = useSelector(s => s.movies);
   const { playlist } = moviesStore;
-  console.log(playlist);
-
+  
   return(
       <>
       <h1>Playlist</h1>
@@ -23,7 +22,7 @@ export const Playlist = () => {
               </button>
           </h5>
       ))}
-        <button onClick={() => dispatch(clearPlaylist(index))}>Limpar Playlist</button> 
+        <button onClick={() => dispatch(clearPlaylist(playlist))}>Limpar Playlist</button> 
       </>
   )
       }
